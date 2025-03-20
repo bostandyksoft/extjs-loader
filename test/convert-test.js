@@ -45,6 +45,7 @@ describe('ExtClassParser convert result', function () {
     const cases = {
         'Simple': 'simple',
         'Requires': 'requires',
+        'Simple Require': 'ext_require',
         'Single Requires': 'single_requires',
         'Requires app': 'requires.app',
         'Uses': 'uses',
